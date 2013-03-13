@@ -8,9 +8,9 @@ This is snapshot repos xml code
     </repositories>
 
 This is releases repos xml code
-`<repositories>
-    <repository>
-        <id>releases</id>
-        <url>https://github.com/adatao/mvnrepos/raw/master/releases</url>
-    </repository>
-</repositories>`
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <url>https://github.com/adatao/mvnrepos/raw/master/releases</url>
+        </repository>
+    </repositories>
