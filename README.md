@@ -8,6 +8,7 @@ This is snapshot repos xml code
     </repositories>
 
 This is releases repos xml code
+
     <repositories>
         <repository>
             <id>releases</id>
