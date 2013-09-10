@@ -67,6 +67,18 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>AdataoMvnreposSnapshots</id>
+            <name>Adatao Mvnrepos Snapshots</name>
+            <url>https://raw.github.com/adatao/mvnrepos/master/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>AdataoMvnreposReleases</id>
+            <name>Adatao Mvnrepos Releases</name>
+            <url>https://raw.github.com/adatao/mvnrepos/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>TypesafeRepository</id>
             <name>Typesafe Repository</name>
             <url>http://repo.typesafe.com/typesafe/releases/</url>
@@ -88,18 +100,6 @@
             <id>ClouderaRepository</id>
             <name>Cloudera Repository</name>
             <url>http://repository.cloudera.com/artifactory/cloudera-repos/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>AdataoMvnreposSnapshots</id>
-            <name>Adatao Mvnrepos Snapshots</name>
-            <url>https://raw.github.com/adatao/mvnrepos/master/snapshots/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>AdataoMvnreposReleases</id>
-            <name>Adatao Mvnrepos Releases</name>
-            <url>https://raw.github.com/adatao/mvnrepos/master/releases/</url>
             <layout>default</layout>
         </repository>
     </repositories>
