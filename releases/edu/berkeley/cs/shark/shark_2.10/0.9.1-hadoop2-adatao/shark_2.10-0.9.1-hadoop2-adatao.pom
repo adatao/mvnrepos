@@ -5,7 +5,7 @@
     <artifactId>shark_2.10</artifactId>
     <packaging>jar</packaging>
     <description>shark</description>
-    <version>0.9.1-adatao</version>
+    <version>0.9.1-hadoop2-adatao</version>
     <name>shark</name>
     <organization>
         <name>edu.berkeley.cs.shark</name>
@@ -33,11 +33,6 @@
         </developer>
     </developers>
     <dependencies>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-compiler</artifactId>
-            <version>2.10.3</version>
-        </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
@@ -104,29 +99,19 @@
             <version>0.11.0-shark-0.9.1</version>
         </dependency>
         <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>jline</artifactId>
-            <version>2.10.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-reflect</artifactId>
-            <version>2.10.3</version>
-        </dependency>
-        <dependency>
             <groupId>org.tachyonproject</groupId>
             <artifactId>tachyon</artifactId>
-            <version>0.4.1</version>
+            <version>0.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.10</artifactId>
-            <version>0.9.1</version>
+            <version>0.9.1-hadoop2-adatao</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-repl_2.10</artifactId>
-            <version>0.9.1</version>
+            <version>0.9.1-hadoop2-adatao</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -152,6 +137,12 @@
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-test</artifactId>
+            <version>0.20.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
