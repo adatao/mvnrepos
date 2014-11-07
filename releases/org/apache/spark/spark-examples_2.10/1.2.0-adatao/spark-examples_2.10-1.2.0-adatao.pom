@@ -114,9 +114,14 @@
             <version>0.1.11</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.10</artifactId>
-            <version>2.1.5</version>
+            <version>2.2.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -161,14 +166,13 @@
             <artifactId>scopt_2.10</artifactId>
             <version>3.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.spark-project.spark</groupId>
+            <artifactId>unused</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     <repositories>
-        <repository>
-            <id>central</id>
-            <name>central</name>
-            <url>https://repo1.maven.org/maven2/</url>
-            <layout>default</layout>
-        </repository>
         <repository>
             <id>apacherepo</id>
             <name>apache-repo</name>
@@ -209,6 +213,12 @@
             <id>sparkstaging</id>
             <name>spark-staging</name>
             <url>https://oss.sonatype.org/content/repositories/orgspark-project-1085/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sparkstaginghive13</id>
+            <name>spark-staging-hive13</name>
+            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1089/</url>
             <layout>default</layout>
         </repository>
     </repositories>
