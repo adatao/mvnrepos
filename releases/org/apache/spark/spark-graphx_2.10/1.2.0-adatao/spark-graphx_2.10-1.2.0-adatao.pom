@@ -109,5 +109,11 @@
             <url>https://oss.sonatype.org/content/repositories/orgspark-project-1089/</url>
             <layout>default</layout>
         </repository>
+        <repository>
+            <id>apachesnapshots</id>
+            <name>apache.snapshots</name>
+            <url>http://repository.apache.org/snapshots/</url>
+            <layout>default</layout>
+        </repository>
     </repositories>
 </project>
