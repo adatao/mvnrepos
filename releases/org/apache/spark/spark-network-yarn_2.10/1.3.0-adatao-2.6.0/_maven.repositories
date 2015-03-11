@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Jan 28 03:39:32 UTC 2015
+spark-network-yarn_2.10-1.3.0-adatao-2.6.0.pom>=
+spark-network-yarn_2.10-1.3.0-adatao-2.6.0-sources.jar>=
+spark-network-yarn_2.10-1.3.0-adatao-2.6.0-javadoc.jar>=
+spark-network-yarn_2.10-1.3.0-adatao-2.6.0.jar>=
