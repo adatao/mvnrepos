@@ -23,8 +23,8 @@
         </dependency>
         <dependency>
             <groupId>org.eclipse.paho</groupId>
-            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-            <version>1.0.1</version>
+            <artifactId>mqtt-client</artifactId>
+            <version>0.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
@@ -102,6 +102,18 @@
             <id>springreleases</id>
             <name>spring-releases</name>
             <url>https://repo.spring.io/libs-release/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sparkstaging</id>
+            <name>spark-staging</name>
+            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1085/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sparkstaginghive13</id>
+            <name>spark-staging-hive13</name>
+            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1089/</url>
             <layout>default</layout>
         </repository>
         <repository>
