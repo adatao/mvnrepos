@@ -12,7 +12,7 @@
     <artifactId>adann-math-hardcore</artifactId>
 
     <properties>
-        <jblas.version>1.2.4</jblas.version>
+        <jblas.version>1.2.3</jblas.version>
     </properties>
 
     <build>
