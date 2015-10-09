@@ -67,6 +67,14 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>AdataoMvnreposReleasesSource</id>
+            <name>Adatao Mvnrepos Releases for fetching jars</name>
+            <url>https://raw.githubusercontent.com/adatao/mvnrepos/master/releases/</url>
+        </repository>
+    </repositories>
+
     <build>
         <pluginManagement>
             <plugins>
