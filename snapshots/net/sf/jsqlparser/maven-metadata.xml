@@ -3,7 +3,7 @@
   <groupId>net.sf</groupId>
   <artifactId>jsqlparser</artifactId>
   <versioning>
-    <release>0.9.8.4</release>
+    <release>0.9.8.5</release>
     <versions>
       <version>0.9.4</version>
       <version>0.9.5</version>
@@ -14,7 +14,8 @@
       <version>0.9.8.2</version>
       <version>0.9.8.3</version>
       <version>0.9.8.4</version>
+      <version>0.9.8.5</version>
     </versions>
-    <lastUpdated>20151019192605</lastUpdated>
+    <lastUpdated>20151019210953</lastUpdated>
   </versioning>
 </metadata>
