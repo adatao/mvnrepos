@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.adatao.nn</groupId>
+    <artifactId>adann</artifactId>
+    <packaging>pom</packaging>
+    <version>0.4.0</version>
+
+    <properties>
+        <checkstyle.path>build/checkstyle/</checkstyle.path>
+        <findbugs.path>build/findbugs/</findbugs.path>
+        <scalastyle.path>build/scalastyle/</scalastyle.path>
+        <license.header.path>build/license/</license.header.path>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.7</java.version>
+        <slf4j.version>1.7.11</slf4j.version>
+        <bidmat.version>1.0.3</bidmat.version>
+        <scala.library.version>2.11.6</scala.library.version>
+        <jcuda.version>0.7.0</jcuda.version>
+        <nd4j.version>0.0.3.5.5.5</nd4j.version>
+        <cuda.version>7.0</cuda.version>
+        <jhdf5.version>2.11.0</jhdf5.version>
+        <protobuf.version>2.5.0</protobuf.version>
+        <maven-jar.version>2.6</maven-jar.version>
+        <maven-assembly.version>2.5.5</maven-assembly.version>
+        <maven-surefire.version>2.18</maven-surefire.version>
+        <maven-deploy.version>2.8.2</maven-deploy.version>
+        <maven-compiler.version>3.3</maven-compiler.version>
+        <junit.version>4.12</junit.version>
+        <guava.version>18.0</guava.version>
+        <apache.common.version>3.3.2</apache.common.version>
+        <apache.commons.io.version>2.4</apache.commons.io.version>
+        <spark.version>1.3.1</spark.version>
+        <spark.scala.version>2.10</spark.scala.version>
+        <test.output.redirect>true</test.output.redirect>
+
+    </properties>
+
+    <modules>
+        <module>adann-core</module>
+        <module>adann-spark</module>
+        <module>adann-local</module>
+        <module>adann-math-api</module>
+        <module>adann-protobuf</module>
+        <module>adann-math-hardcore</module>
+        <module>adann-jcublas-7.0</module>
+        <module>adann-spark-common</module>
+        <module>adann-spark-pe</module>
+        <module>adann-spark-baseline</module>
+    </modules>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>AdataoMvnreposSnapshots</id>
+            <name>Adatao Mvnrepos Snapshots</name>
+            <url>https://raw.githubusercontent.com/adatao/mvnrepos/master/snapshots/</url>
+            <layout>default</layout>
+        </snapshotRepository>
+        <repository>
+            <id>AdataoMvnreposReleases</id>
+            <name>Adatao Mvnrepos Releases</name>
+            <url>https://raw.githubusercontent.com/adatao/mvnrepos/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>AdataoMvnreposReleasesSource</id>
+            <name>Adatao Mvnrepos Releases for fetching jars</name>
+            <url>https://raw.githubusercontent.com/adatao/mvnrepos/master/releases/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler.version}</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire.version}</version>
+                    <configuration>
+                        <argLine>-Djava.security.krb5.realm= -Djava.security.krb5.kdc=</argLine>
+                        <redirectTestOutputToFile>${test.output.redirect}</redirectTestOutputToFile>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <!-- Find Bugs -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <excludeFilterFile>${findbugs.path}findbugs-exclude.xml</excludeFilterFile>
+                    <findbugsXmlOutput>true</findbugsXmlOutput>
+                    <xmlOutput>true</xmlOutput>
+                    <effort>Max</effort>
+                </configuration>
+            </plugin>
+
+            <!-- Checkstyle -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.16</version>
+                <configuration>
+                    <configLocation>${checkstyle.path}adann_checks.xml</configLocation>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    <excludes>**/adatao/nn/proto/**,jcuda/**</excludes>
+                    <encoding>UTF-8</encoding>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError>
+                    <linkXRef>false</linkXRef>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>checkstyle</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>5.9</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <!-- scalastyle -->
+            <plugin>
+                <groupId>org.scalastyle</groupId>
+                <artifactId>scalastyle-maven-plugin</artifactId>
+                <version>0.7.0</version>
+                <configuration>
+                    <verbose>false</verbose>
+                    <failOnViolation>true</failOnViolation>
+                    <includeTestSourceDirectory>false</includeTestSourceDirectory>
+                    <failOnWarning>false</failOnWarning>
+                    <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
+                    <configLocation>${scalastyle.path}/scalastyle_config.xml</configLocation>
+                    <outputFile>target/scalastyle-output.xml</outputFile>
+                    <outputEncoding>UTF-8</outputEncoding>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>${maven-deploy.version}</version>
+            </plugin>
+        </plugins>
+
+
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${apache.common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+    <profiles>
+        <profile>
+            <!-- Ignore GPU unittests -->
+            <id>no-gpu</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${maven-surefire.version}</version>
+                        <configuration>
+                            <excludes>
+                                <exclude>**/TestTrain.java</exclude>
+                                <exclude>**/TestEval.java</exclude>
+                                <exclude>**/Test*Gpu.java</exclude>
+                                <exclude>**/JCu*Test.java</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>with-tachyon</id>
+            <modules>
+                <module>adann-spark-tachyon</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>
