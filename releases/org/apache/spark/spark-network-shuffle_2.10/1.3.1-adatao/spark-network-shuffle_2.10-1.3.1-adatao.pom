@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
+            <version>1.7.10</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -58,15 +58,15 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.spark-project.spark</groupId>
+            <artifactId>unused</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.10</artifactId>
             <version>2.2.1</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.spark-project.spark</groupId>
-            <artifactId>unused</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.novocode</groupId>
@@ -110,24 +110,6 @@
             <id>springreleases</id>
             <name>spring-releases</name>
             <url>https://repo.spring.io/libs-release/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaging</id>
-            <name>spark-staging</name>
-            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1085/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaginghive13</id>
-            <name>spark-staging-hive13</name>
-            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1089/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaging1038</id>
-            <name>spark-staging-1038</name>
-            <url>https://repository.apache.org/content/repositories/orgapachespark-1038/</url>
             <layout>default</layout>
         </repository>
     </repositories>

@@ -23,14 +23,8 @@
         </dependency>
         <dependency>
             <groupId>org.eclipse.paho</groupId>
-            <artifactId>mqtt-client</artifactId>
-            <version>0.4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.10</artifactId>
-            <version>2.2.1</version>
-            <scope>test</scope>
+            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.scalacheck</groupId>
@@ -51,9 +45,21 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-core</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.spark-project.spark</groupId>
             <artifactId>unused</artifactId>
             <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>2.2.1</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -102,24 +108,6 @@
             <id>springreleases</id>
             <name>spring-releases</name>
             <url>https://repo.spring.io/libs-release/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaging</id>
-            <name>spark-staging</name>
-            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1085/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaginghive13</id>
-            <name>spark-staging-hive13</name>
-            <url>https://oss.sonatype.org/content/repositories/orgspark-project-1089/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sparkstaging1038</id>
-            <name>spark-staging-1038</name>
-            <url>https://repository.apache.org/content/repositories/orgapachespark-1038/</url>
             <layout>default</layout>
         </repository>
     </repositories>
