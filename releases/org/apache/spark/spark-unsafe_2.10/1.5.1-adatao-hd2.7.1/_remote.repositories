@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Nov 18 06:29:57 UTC 2015
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1-sources.jar>=
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1.pom>=
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1-tests.jar>=
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1-test-sources.jar>=
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1-javadoc.jar>=
+spark-unsafe_2.10-1.5.1-adatao-hd2.7.1.jar>=

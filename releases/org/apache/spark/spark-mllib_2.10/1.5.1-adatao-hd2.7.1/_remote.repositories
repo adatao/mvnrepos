@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Nov 18 06:34:18 UTC 2015
+spark-mllib_2.10-1.5.1-adatao-hd2.7.1.jar>=
+spark-mllib_2.10-1.5.1-adatao-hd2.7.1.pom>=
+spark-mllib_2.10-1.5.1-adatao-hd2.7.1-javadoc.jar>=
+spark-mllib_2.10-1.5.1-adatao-hd2.7.1-test-sources.jar>=
+spark-mllib_2.10-1.5.1-adatao-hd2.7.1-sources.jar>=
