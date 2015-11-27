@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.rforge</groupId>
+  <artifactId>Rserve</artifactId>
+  <versioning>
+    <release>1.8.2.compiled</release>
+    <versions>
+      <version>1.8.2.compiled</version>
+    </versions>
+    <lastUpdated>20151124230640</lastUpdated>
+  </versioning>
+</metadata>
