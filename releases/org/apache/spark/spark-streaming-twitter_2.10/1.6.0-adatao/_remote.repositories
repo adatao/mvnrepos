@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:29:45 UTC 2016
+spark-streaming-twitter_2.10-1.6.0-adatao-sources.jar>=
+spark-streaming-twitter_2.10-1.6.0-adatao-test-sources.jar>=
+spark-streaming-twitter_2.10-1.6.0-adatao.pom>=
+spark-streaming-twitter_2.10-1.6.0-adatao-javadoc.jar>=
+spark-streaming-twitter_2.10-1.6.0-adatao-tests.jar>=
+spark-streaming-twitter_2.10-1.6.0-adatao.jar>=

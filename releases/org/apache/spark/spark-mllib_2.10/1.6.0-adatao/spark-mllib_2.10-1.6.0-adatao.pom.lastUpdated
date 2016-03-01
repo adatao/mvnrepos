@@ -1,0 +1,16 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:18:36 UTC 2016
+https\://raw.github.com/adatao/mvnrepos/master/releases/.error=
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+http\://conjars.org/repo/.lastUpdated=1456823915990
+http\://conjars.org/repo/.error=
+https\://raw.github.com/adatao/mvnrepos/master/snapshots/.error=
+https\://raw.github.com/adatao/mvnrepos/master/snapshots/.lastUpdated=1456823914059
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1456823915982
+http\://repo.typesafe.com/typesafe/releases/.lastUpdated=1456823915929
+https\://repo.maven.apache.org/maven2/.lastUpdated=1456823916029
+https\://repo.maven.apache.org/maven2/.error=
+http\://repo.typesafe.com/typesafe/releases/.error=
+https\://repository.cloudera.com/artifactory/cloudera-repos/.lastUpdated=1456823915951
+https\://raw.github.com/adatao/mvnrepos/master/releases/.lastUpdated=1456823915798
+https\://repository.cloudera.com/artifactory/cloudera-repos/.error=

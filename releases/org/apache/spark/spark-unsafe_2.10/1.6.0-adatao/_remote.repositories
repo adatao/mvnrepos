@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:18:42 UTC 2016
+spark-unsafe_2.10-1.6.0-adatao.pom>=
+spark-unsafe_2.10-1.6.0-adatao-javadoc.jar>=
+spark-unsafe_2.10-1.6.0-adatao-tests.jar>=
+spark-unsafe_2.10-1.6.0-adatao-test-sources.jar>=
+spark-unsafe_2.10-1.6.0-adatao-sources.jar>=
+spark-unsafe_2.10-1.6.0-adatao.jar>=

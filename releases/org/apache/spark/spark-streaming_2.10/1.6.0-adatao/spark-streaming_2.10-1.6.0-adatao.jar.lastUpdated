@@ -1,0 +1,28 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:13:48 UTC 2016
+https\://raw.github.com/adatao/mvnrepos/master/releases/.error=
+http\://conjars.org/repo/.error=
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/releases/.error=
+https\://repository.jboss.org/nexus/content/repositories/releases/.lastUpdated=1456823627866
+https\://raw.github.com/adatao/mvnrepos/master/snapshots/.lastUpdated=1456823625203
+https\://raw.github.com/adatao/mvnrepos/master/releases/.lastUpdated=1456823625659
+https\://repo.maven.apache.org/maven2/.lastUpdated=1456823626655
+http\://repo.typesafe.com/typesafe/releases/.error=
+https\://oss.sonatype.org/content/repositories/orgspark-project-1113/.lastUpdated=1456823628469
+https\://repository.cloudera.com/artifactory/cloudera-repos/.error=
+https\://oss.sonatype.org/content/repositories/orgspark-project-1113/.error=
+http\://conjars.org/repo/.lastUpdated=1456823626447
+https\://repo.maven.apache.org/maven2/.error=
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1456823626414
+https\://repository.apache.org/content/repositories/releases/.lastUpdated=1456823627359
+https\://repo.eclipse.org/content/repositories/paho-releases/.lastUpdated=1456823628445
+http\://repo.typesafe.com/typesafe/releases/.lastUpdated=1456823626198
+http\://maven.twttr.com/.lastUpdated=1456823628594
+https\://repository.jboss.org/nexus/content/repositories/releases/.error=
+http\://maven.twttr.com/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1456823628509
+https\://repository.cloudera.com/artifactory/cloudera-repos/.lastUpdated=1456823626312
+https\://repo.eclipse.org/content/repositories/paho-releases/.error=
+https\://raw.github.com/adatao/mvnrepos/master/snapshots/.error=
+http\://repository.mapr.com/maven/.error=

@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:18:13 UTC 2016
+spark-test-tags_2.10-1.6.0-adatao-javadoc.jar>=
+spark-test-tags_2.10-1.6.0-adatao-tests.jar>=
+spark-test-tags_2.10-1.6.0-adatao.jar>=
+spark-test-tags_2.10-1.6.0-adatao-sources.jar>=
+spark-test-tags_2.10-1.6.0-adatao-test-sources.jar>=
+spark-test-tags_2.10-1.6.0-adatao.pom>=

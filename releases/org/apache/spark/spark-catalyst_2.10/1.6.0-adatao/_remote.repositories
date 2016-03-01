@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:21:41 UTC 2016
+spark-catalyst_2.10-1.6.0-adatao.jar>=
+spark-catalyst_2.10-1.6.0-adatao-sources.jar>=
+spark-catalyst_2.10-1.6.0-adatao-tests.jar>=
+spark-catalyst_2.10-1.6.0-adatao-test-sources.jar>=
+spark-catalyst_2.10-1.6.0-adatao.pom>=
+spark-catalyst_2.10-1.6.0-adatao-javadoc.jar>=

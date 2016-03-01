@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 09:30:13 UTC 2016
+spark-streaming-flume-assembly_2.10-1.6.0-adatao.jar>=
+spark-streaming-flume-assembly_2.10-1.6.0-adatao-tests.jar>=
+spark-streaming-flume-assembly_2.10-1.6.0-adatao.pom>=
+spark-streaming-flume-assembly_2.10-1.6.0-adatao-sources.jar>=
+spark-streaming-flume-assembly_2.10-1.6.0-adatao-test-sources.jar>=
