@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 10:38:23 UTC 2016
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-hd2.7.2.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-hd2.7.2.pom>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-hd2.7.2-sources.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-hd2.7.2-tests.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-hd2.7.2-test-sources.jar>=

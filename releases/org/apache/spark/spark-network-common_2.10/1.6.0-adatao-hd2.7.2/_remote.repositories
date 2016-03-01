@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 01 10:04:40 UTC 2016
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2-tests.jar>=
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2-sources.jar>=
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2.jar>=
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2.pom>=
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2-javadoc.jar>=
+spark-network-common_2.10-1.6.0-adatao-hd2.7.2-test-sources.jar>=
