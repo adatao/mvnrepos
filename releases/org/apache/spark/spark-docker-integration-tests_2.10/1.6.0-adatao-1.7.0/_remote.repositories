@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 02 05:15:44 UTC 2016
+spark-docker-integration-tests_2.10-1.6.0-adatao-1.7.0.jar>=
+spark-docker-integration-tests_2.10-1.6.0-adatao-1.7.0-test-sources.jar>=
+spark-docker-integration-tests_2.10-1.6.0-adatao-1.7.0-sources.jar>=
+spark-docker-integration-tests_2.10-1.6.0-adatao-1.7.0.pom>=
+spark-docker-integration-tests_2.10-1.6.0-adatao-1.7.0-tests.jar>=

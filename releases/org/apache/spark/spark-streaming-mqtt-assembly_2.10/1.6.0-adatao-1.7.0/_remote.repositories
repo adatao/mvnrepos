@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 02 05:21:45 UTC 2016
+spark-streaming-mqtt-assembly_2.10-1.6.0-adatao-1.7.0.pom>=
+spark-streaming-mqtt-assembly_2.10-1.6.0-adatao-1.7.0-sources.jar>=
+spark-streaming-mqtt-assembly_2.10-1.6.0-adatao-1.7.0-test-sources.jar>=
+spark-streaming-mqtt-assembly_2.10-1.6.0-adatao-1.7.0.jar>=
+spark-streaming-mqtt-assembly_2.10-1.6.0-adatao-1.7.0-tests.jar>=

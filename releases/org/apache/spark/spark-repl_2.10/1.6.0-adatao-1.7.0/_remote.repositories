@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 02 05:16:35 UTC 2016
+spark-repl_2.10-1.6.0-adatao-1.7.0.jar>=
+spark-repl_2.10-1.6.0-adatao-1.7.0-sources.jar>=
+spark-repl_2.10-1.6.0-adatao-1.7.0-tests.jar>=
+spark-repl_2.10-1.6.0-adatao-1.7.0-test-sources.jar>=
+spark-repl_2.10-1.6.0-adatao-1.7.0.pom>=
+spark-repl_2.10-1.6.0-adatao-1.7.0-javadoc.jar>=
