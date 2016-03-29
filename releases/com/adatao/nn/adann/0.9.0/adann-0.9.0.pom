@@ -32,7 +32,8 @@
         <junit.version>4.12</junit.version>
         <guava.version>18.0</guava.version>
 
-        <apache.common.version>3.4</apache.common.version>
+        <!-- using common-lang3 version 3.3.2 to be compatible with spark 1.6 -->
+        <apache.common.version>3.3.2</apache.common.version>
         <apache.commons.io.version>2.4</apache.commons.io.version>
 
         <spark.version>1.6.0</spark.version>
