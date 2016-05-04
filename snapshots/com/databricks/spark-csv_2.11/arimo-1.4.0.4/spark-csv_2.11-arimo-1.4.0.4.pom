@@ -5,7 +5,7 @@
     <artifactId>spark-csv_2.11</artifactId>
     <packaging>jar</packaging>
     <description>spark-csv</description>
-    <version>arimo-1.4.0.3</version>
+    <version>arimo-1.4.0.4</version>
     <name>spark-csv</name>
     <organization>
         <name>com.databricks</name>
