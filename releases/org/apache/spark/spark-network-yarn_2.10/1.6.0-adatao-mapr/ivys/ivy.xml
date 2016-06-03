@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache.spark" module="spark-network-yarn_2.10" revision="1.6.0-adatao-mapr" status="release" publication="20160603050143">
+		<description>
+		spark-network-yarn
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		
+	</configurations>
+	<publications>
+		<artifact name="spark-network-yarn_2.10" type="pom" ext="pom" conf="pom"/>
+		<artifact name="spark-network-yarn_2.10" type="jar" ext="jar" conf="compile"/>
+		<artifact name="spark-network-yarn_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="spark-network-yarn_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-network-shuffle_2.10" rev="1.6.0-adatao-mapr" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-test-tags_2.10" rev="1.6.0-adatao-mapr" conf="test->test"/>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.7.0-mapr-1602" conf="provided->default(compile)">
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.codehaus.jackson" module="jackson-mapper-asl" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.mockito" module="mockito-all" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.mortbay.jetty" module="servlet-api-2.5" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="junit" module="junit" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.10" conf="provided->default(compile)"/>
+		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.2.1" conf="test->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.11" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
+		
+		<override org="com.google.guava" module="guava" matcher="exact" rev="14.0.1"/>
+	</dependencies>
+</ivy-module>
