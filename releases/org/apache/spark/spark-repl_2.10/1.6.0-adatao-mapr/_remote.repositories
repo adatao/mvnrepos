@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 03 11:37:36 UTC 2016
+spark-repl_2.10-1.6.0-adatao-mapr.pom>=
+spark-repl_2.10-1.6.0-adatao-mapr-sources.jar>=
+spark-repl_2.10-1.6.0-adatao-mapr-javadoc.jar>=
+spark-repl_2.10-1.6.0-adatao-mapr.jar>=
+spark-repl_2.10-1.6.0-adatao-mapr-tests.jar>=
+spark-repl_2.10-1.6.0-adatao-mapr-test-sources.jar>=

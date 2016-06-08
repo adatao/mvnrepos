@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 03 11:45:39 UTC 2016
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-mapr.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-mapr-sources.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-mapr-test-sources.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-mapr-tests.jar>=
+spark-streaming-kafka-assembly_2.10-1.6.0-adatao-mapr.pom>=

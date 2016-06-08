@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 03 11:38:53 UTC 2016
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr-sources.jar>=
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr-tests.jar>=
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr.jar>=
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr-test-sources.jar>=
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr-javadoc.jar>=
+spark-hive-thriftserver_2.10-1.6.0-adatao-mapr.pom>=

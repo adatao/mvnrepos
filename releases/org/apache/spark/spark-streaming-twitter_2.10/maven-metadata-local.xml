@@ -3,10 +3,10 @@
   <groupId>org.apache.spark</groupId>
   <artifactId>spark-streaming-twitter_2.10</artifactId>
   <versioning>
-    <release>1.6.0-adatao-hd2.7.2</release>
+    <release>1.6.0-adatao-mapr</release>
     <versions>
-      <version>1.6.0-adatao-hd2.7.2</version>
+      <version>1.6.0-adatao-mapr</version>
     </versions>
-    <lastUpdated>20160303044151</lastUpdated>
+    <lastUpdated>20160603114115</lastUpdated>
   </versioning>
 </metadata>

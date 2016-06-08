@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 03 11:21:12 UTC 2016
+spark-network-shuffle_2.10-1.6.0-adatao-mapr-sources.jar>=
+spark-network-shuffle_2.10-1.6.0-adatao-mapr.jar>=
+spark-network-shuffle_2.10-1.6.0-adatao-mapr-javadoc.jar>=
+spark-network-shuffle_2.10-1.6.0-adatao-mapr-test-sources.jar>=
+spark-network-shuffle_2.10-1.6.0-adatao-mapr.pom>=
+spark-network-shuffle_2.10-1.6.0-adatao-mapr-tests.jar>=
